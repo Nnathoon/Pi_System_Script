@@ -14,7 +14,7 @@
     # 3. Kernel Version
     # 4. The operating system
 
-
+    uname
 
 
 # Output the following information to a file called network
@@ -25,19 +25,24 @@
 # Output the following information to a file called disk.html
     # 1. All disks
     # 2. The output should include html tags, i.e. <html></html>
-
+    lspci
 
 # Output the following information to a file called cpu
     # 1. The first five lines of the command lscpu
     # 2. The last 12 lines of the command lscpu
     
+    lscpuu
 
 # Output the following information to a file called block_dev
     # 1. Only the name, size, and type of the block devices
     # 2. The output should use ascii characters for any tree formatting
     
+    lsblk
     
 # Output the following information to a file called sata
     # 1. Any Sata devices connected to the machine along with human readable sizes of the devices
     # 2. More specific information about each device that is connected to the machine
     
+    lsscsi -s
+    
+    sudo hdparm pi
