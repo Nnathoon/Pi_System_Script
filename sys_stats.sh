@@ -1,5 +1,5 @@
 #!/bin/bash
-# add any contributor names in a comment here
+# Joardan Brant 
 
 #************************************#
 #******* OUTPUT SYSTEM STATS ********#
@@ -13,6 +13,8 @@
     # 2. Kernel Release
     # 3. Kernel Version
     # 4. The operating system
+
+
 
 
 # Output the following information to a file called network
